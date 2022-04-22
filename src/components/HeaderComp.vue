@@ -16,6 +16,8 @@
             <li @click="toggleActive"><router-link to="/webapi">Web API</router-link></li>
             <li @click="toggleActive"><router-link to="/webapi-img">Random Image</router-link></li>
             <li @click="toggleActive"><router-link to="/vuex">Vuex</router-link></li>
+            <li @click="toggleActive"><router-link to="/dynamic">DynamicComp</router-link></li>
+
           </ul>
         </nav>
       </div><!--gnav_wrapper-->

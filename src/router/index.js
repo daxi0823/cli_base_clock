@@ -34,7 +34,13 @@ const routes = [
     path: '/vuex',
     name: 'VuexComp',
     component: () => import('../views/VuexComp.vue')
-  }
+  },
+  {
+    path: '/Dynamic',
+    name: 'DynamicComp',
+    component: () => import('../views/DynamicComp.vue')
+  },
+
 ]
 
 const router = new VueRouter({
